@@ -1,0 +1,242 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Home Page</title>
+     <link rel="stylesheet" href="Home Page.css">
+
+
+
+
+     <style>
+      * {box-sizing: border-box}
+      body {font-family: Verdana, sans-serif; margin:0}
+      .mySlides {display: none}
+      img {vertical-align: middle;}
+      
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 370px;
+        position: relative;
+        margin: 0px;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: acc1010rgb(6, 14, 71);
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(241, 183, 67, 0.655);
+      }
+      
+      
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 10px;
+        width: 10px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        margin-top: 5px;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+      }
+      </style>
+
+ </head>
+ <body>
+    <div class="Home screen">
+        <img class="full-meal" src="full meal 1.png"/>
+    <div class="delivery-to">Delivery to</div>
+    <div class="nizampet-hyd">Nizampet,Hyderabad</div>
+    <img class="downward-arrow" src="16-164569_down-arrow-png-image-background-arrow-down-icon.png"/>
+    <img class="man" src="man.png"/>
+    <img class="three-lines" src="three lines.png"/>
+    <img class="search" src="search.png""/>
+    <div class="restuarant">restuarant foods or drinks....</div>
+    <img class="voice" src="voice.png"/>
+    <div class="just-check-out">Just check out!!</div>
+
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+       <img class="food-front" src="food front page-2.png">
+        
+      </div>
+      
+      <div class="mySlides fade">
+      <img  class="drink" src="Premium PSD _ Chocolate drink menu social media instagram stories template for restaurant promotion.jpg">
+       
+      </div>
+      
+      <div class="mySlides fade">
+        <img class="home-food" src="When you find yourself in times of trouble order from Makhani and Me_.jpg" >
+          
+        </div>
+
+           
+      <div class="mySlides fade">
+        <img class="delivery-2" src="get flyers for delivery store on social media.png" >
+          
+        </div>
+
+           
+      <div class="mySlides fade">
+        <img class="healthy-meal" src="Instant and Packaged Indian Food, Ready to Cook Food - Oye24.jpg" >
+          
+        </div>
+
+           
+      <div class="mySlides fade">
+        <img class="cool-drink" src="Free PSD _ Flat lay smoothies with delicious fruits mock-up.png" >
+          
+        </div>
+
+           
+      <div class="mySlides fade">
+        <img class="healthy-chef" src="Healthy Prepared Meal Delivery Service.png" >
+          
+        </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+        <span class="dot" onclick="currentSlide(6)"></span> 
+        <span class="dot" onclick="currentSlide(7)"></span> 
+      </div>
+      
+      <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+      
+
+    <img class="tiffin" src="tiffin.png"/>
+    <div class="tiffins">Tiffins</div>
+
+    <img class="snack" src="snack.png"/>
+    <div class="snacks">Snacks</div>
+
+    <img class="beverage" src="beverages.png"/>
+    <div class="beverages">Beverages</div>
+
+   
+
+    <img class="dessert" src="desserts.jpg"/>
+    <div class="desserts">Desserts</div>
+
+    <img class="meal" src="Get Recipes On My Website 🥓🥓🥓.jpg"/>
+    <div class="meals">Meals</div>
+
+    <img class="salad" src="Our 10 Most Popular Salad Recipes of 2019.jpg"/>
+    <div class="salads">Salads</div>
+
+    <img class="burger" src="burgers.png"/>
+    <div class="burgers">Burgers</div>
+
+    <img class="pizza" src="Sweet Chili Garlic Chicken Pizza.jpg"/>
+    <div class="pizza-1">Pizza</div>
+
+    <img class="kebab" src="Chicken kebab with bell pepper.jpg"/>
+    <div class="kebabs">Kebabs</div>
+
+
+    <div class="rectangle-1"> </div>
+
+    <img class="home" src="The Home Safety Checklist For Seniors - SeniorSafetyReviews_com.jpg"/>
+    <div class="home-1">Home</div>
+
+    <img class="take-away" src="Endless Icons.png"/>
+    <div class="car-1">Take Away</div>
+
+
+    <img class="car" src="Car black side view pointing left free vector icons designed by Freepik.png"/>
+   
+    <img class="dine" src="dining-table.png"/>
+    <div class="dine-1">Dine In</div>
+
+    <img class="cart" src="shopping-bag.png"/>
+    <div class="cart-1">Cart</div>
+   
+  </div>
+</div>
+ </body>
+ </html>

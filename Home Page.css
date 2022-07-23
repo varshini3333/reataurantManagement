@@ -1,0 +1,453 @@
+.Home {
+    background-color: var(--white);
+    height: 812px;
+    overflow: hidden;
+    position: relative;
+    width: 375px;
+   
+    
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.full-meal {
+    height: 812px;
+    width: 371px;
+    object-fit: cover;
+    position: absolute;
+    opacity: 30%;
+}
+
+.delivery-to {
+    margin-left: 15px; 
+   margin-top: 15px;
+    font-size: 12px;
+    color: rgb(132, 126, 126);
+}
+
+.nizampet-hyd {
+    font-size: small;
+    color: black;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+.downward-arrow {
+    width: 8px;
+    height: 10px;
+    object-fit: cover;
+    margin-left: 160px;
+   position: absolute;
+    margin-top: -12px;
+}
+
+.man {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    position: absolute;
+    margin-left: 320px;
+    border-radius: 20px;
+    margin-top: -35px;
+}
+
+.three-lines {
+    width: 25px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.search {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-top: 10px;
+    opacity: 50%;
+}
+
+.restuarant {
+    margin-left: 100px;
+    margin-top: -20px;
+    color: #636161;
+    font-size: small;
+}
+
+.voice {
+    width: 17px;
+    height: 18px;
+    object-fit: cover;
+    position: absolute;
+    margin-left: 330px;
+    margin-top: -15px;
+    opacity: 50%;
+}
+
+.just-check-out {
+    margin-left: 15px;
+    margin-top: 15px;
+    color: rgb(9, 4, 93);
+    font-size: 14px;
+}
+
+
+.food-front {
+    width: 370px;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+    overflow: hidden;
+    padding-left: 0px;
+    opacity: 100%;
+    margin-top: 10px;
+    
+}
+
+
+
+.home-food {
+    width: 370px;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+    overflow: hidden;
+   
+    opacity: 100%;
+    margin-top: 10px;
+}
+
+
+
+
+.drink {
+    width: 370px;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+    overflow: hidden;
+   
+    opacity: 100%;
+    margin-top: 10px;
+   
+}
+
+.delivery-2 {
+    width: 370px;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+    overflow: hidden;
+   
+    opacity: 100%;
+    margin-top: 10px;
+   
+}
+
+.healthy-meal {
+    width: 370px;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+    overflow: hidden;
+   
+    opacity: 100%;
+    margin-top: 10px;
+   
+}
+
+.cool-drink {
+    width: 370px;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+    overflow: hidden;
+   
+    opacity: 100%;
+    margin-top: 10px;
+}
+
+
+.healthy-chef {
+    width: 370px;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+    overflow: hidden;
+   
+    opacity: 100%;
+    margin-top: 10px;
+}
+
+
+
+.tiffin {
+    width: 98px;
+    height: 69px;
+    border-radius: 10px;
+ 
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.tiffins {
+    margin-top: 5px;
+    margin-left: 25px;
+    font-size: 25px;
+    font-family: 'Brush Script MT',cursive;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+
+.snack {
+    width: 98px;
+    height: 69px;
+   border-radius: 10px;
+   margin-left: 135px;
+   object-fit: cover;
+   position: absolute;
+    margin-top: -105px;
+}
+
+.snacks {
+    margin-top: -28px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: 'Brush Script MT',cursive;
+    font-weight: 600;
+}
+
+
+.beverage {
+    width: 98px;
+    height: 69px;
+   border-radius: 10px;
+   position: absolute;
+   object-fit: cover;
+   margin-left: 260px;
+   margin-top: -107px;
+}
+
+.beverages {
+    margin-top: -29px;
+    margin-left: 263px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: 'Brush Script MT',cursive;
+    font-weight: 600;
+}
+
+
+.dessert {
+    width: 98px;
+    height: 69px;
+   border-radius: 10px;
+   position: absolute;
+   object-fit: cover;
+   margin-left: 10px;
+   margin-top: 20px;
+}
+
+.desserts {
+    margin-top: 95px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: 'Brush Script MT',cursive;
+    font-weight: 600;
+}
+
+
+.meal {
+    width: 98px;
+    height: 69px;
+   border-radius: 10px;
+   object-fit: cover;
+   position: absolute;
+   margin-left: 135px;
+   margin-top: -105px;
+}
+
+.meals {
+    margin-top: -30px;
+    margin-left: 155px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: 'Brush Script MT',cursive;
+    font-weight: 600;
+}
+
+
+.salad {
+    width: 98px;
+    height: 69px;
+   border-radius: 10px;
+   object-fit: cover;
+   position: absolute;
+   margin-left: 260px;
+   margin-top: -105px;
+}
+
+.salads {
+    margin-top: -30px;
+    margin-left: 280px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: 'Brush Script MT',cursive;
+    font-weight: 600;
+}
+
+
+.burger {
+    width: 98px;
+    height: 69px;
+   border-radius: 10px;
+   object-fit: cover;
+   position: absolute;
+   margin-left: 10px;
+   margin-top: 25px;
+}
+
+.burgers {
+    margin-top: 95px;
+    margin-left: 23px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: 'Brush Script MT',cursive;
+    font-weight: 600;
+}
+
+
+.pizza {
+    width: 98px;
+    height: 69px;
+   border-radius: 10px;
+   object-fit: cover;
+   position: absolute;
+   margin-left: 135px;
+   margin-top: -100px;
+}
+
+.pizza-1 {
+    margin-top: -30px;
+    margin-left: 160px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: 'Brush Script MT',cursive;
+    font-weight: 600;
+}
+
+
+.kebab {
+    width: 98px;
+    height: 69px;
+   border-radius: 10px;
+   position: absolute;
+   object-fit: cover;
+   margin-left: 260px;
+   overflow: hidden;
+   margin-top: -99px;
+}
+
+.kebabs {
+    margin-top: -27px;
+    margin-left: 274px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: 'Brush Script MT',cursive;
+    font-weight: 600;
+}
+
+
+.rectangle-1 {
+
+    background-color: rgba(255, 255, 254, 0.648);
+   
+   
+    height: 55px;
+    left: 0px;
+    position: absolute;
+    top: 577px;
+    width: 371px;
+    box-shadow: 3px 3px 3px rgba(178, 175, 175, 0.502) inset;
+    
+    margin-top: 180px;
+}
+
+
+.home {
+    width: 25px;
+    height: 31px;
+    left: 20px;
+    top: 764px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.home-1 {
+    font-size: 12px;
+    margin-top: 45px;
+    margin-left: 17px;
+    color: rgb(0, 0, 0);
+}
+
+.take-away {
+    width: 53px;
+    height: 65px;
+    left: 90px;
+    top: 748px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.car {
+    width: 41px;
+    height: 30px;
+    left: 125px;
+    top: 767px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.car-1 {
+    font-size: 12px;
+    margin-top: -15px;
+    margin-left: 107px;
+    color: black;
+}
+
+.dine {
+    width: 35px;
+    height: 30px;
+    left: 225px;
+    top: 763px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.dine-1 {
+    font-size: 12px;
+    margin-left: 221px;
+    margin-top: -15px;
+}
+
+.cart {
+    width: 26px;
+    height: 26px;
+    left: 320px;
+    top: 765px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.cart-1 {
+    font-size: 12px;
+    margin-left: 321px;
+    margin-top: -15px;
+}

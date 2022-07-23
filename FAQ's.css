@@ -1,0 +1,172 @@
+.abstract-vector-ques {
+    height: 812px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 375px;
+}
+
+.right-arrow-png-transparent-24-7 {
+    cursor: pointer;
+    height: 14px;
+    left: 9px;
+  
+    object-fit: cover;
+    position: absolute;
+    top: 14px;
+    width: 14px;
+}
+
+
+.fa-qs {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-1);
+    font-weight: 700;
+    left: 36px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 11px;
+}
+
+
+
+.which-are-the-cities-u-currently-serve {
+    left: 13px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 72px;
+    color: #000000;
+    font-display: block;
+}
+
+.we-are-currently-del {
+    left: 13px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 97px;
+    width: 333px;
+    color: rgb(16, 16, 16);
+    font-size: smaller;
+}
+
+.line-dark-grey {
+    height: 1px;
+    left: 13px;
+    position: absolute;
+    top: 140px;
+    width: 350px;
+}
+
+
+
+.is-there-a-minimum-order-value {
+    left: 13px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 148px;
+    color: #000000;
+    font-display: block;
+}
+
+.no-we-dont-have-minimum-order-value {
+    left: 13px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 174px;
+    width: 355px;
+    color: rgb(16, 16, 16);
+    font-size: smaller;
+}
+
+.line-dark-grey-1 {
+    height: 1px;
+    left: 13px;
+    position: absolute;
+    top: 202px;
+    width: 350px;
+}
+    
+ .i-didnt-get-otp-code-on-my-mobile {
+    left: 13px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 211px;
+    color: #000000;
+    font-display: block;
+}
+
+.sometimes-there-coul {
+    left: 13px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 236px;
+    width: 333px;
+    color: rgb(16, 16, 16);
+    font-size: smaller;
+}
+
+.line-dark-grey-2 {
+    height: 1px;
+    left: 13px;
+    position: absolute;
+    top: 295px;
+    width: 350px;
+}
+
+.i-have-forgotten-my-password {
+    left: 13px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 296px;
+    color: #000000;
+    font-display: block;
+}
+
+.you-can-click-on-the {
+    left: 13px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 321px;
+    width: 333px;
+    color: rgb(16, 16, 16);
+    font-size: smaller;
+}
+
+.line-dark-grey-3 {
+    height: 1px;
+    left: 13px;
+    position: absolute;
+    top: 365px;
+    width: 350px;
+}
+
+.my-payment-option-fa {
+    left: 13px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 373px;
+    color: #000000;
+    font-display: block;
+}
+
+.not-to-worry-we-will {
+    left: 13px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 398px;
+    width: 333px;
+    color: rgb(16, 16, 16);
+    font-size: smaller;
+}
+
+.line-dark-grey-4 {
+    height: 1px;
+    left: 13px;
+    position: absolute;
+    top: 443px;
+    width: 350px;
+}
+
+

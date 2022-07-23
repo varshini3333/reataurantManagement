@@ -1,0 +1,30 @@
+/*===== GOOGLE FONTS =====*/
+.splash-screen {
+    align-items: flex-start;
+    background: linear-gradient(180deg,
+    rgb(249.69, 19.77, 19.77) 0%,
+    rgb(243.31, 122.67, 122.67) 100%,
+    rgb(245.44, 100.22, 100.22) 100%,
+    rgb(231.63, 78.17, 78.17) 100%,
+    rgb(246.5, 38, 38) 100%
+);
+background-color: rgba(255, 255, 255, 1);
+border: 1px solid #ff0e0e;
+cursor: pointer;
+display: flex;
+height: 812px;
+width: 371px;
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.vegetable-transparent-5-1 {
+    height: 400px;
+    margin-top: 437px;
+    object-fit: cover;
+    width: 371px;
+}
