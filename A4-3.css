@@ -1,0 +1,27 @@
+.a4-3 {
+    align-items: flex-start;
+    display: flex;
+    height: 812px;
+    width: 370px;
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.a4-3-1 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    width: 370px;
+}
+
+.when-you-find-yourself-in-times-of-trouble-order-free-makhani-an {
+    height: 220px;
+    object-fit: cover;
+    width: 370px;
+}
