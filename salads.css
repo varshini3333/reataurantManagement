@@ -1,0 +1,1992 @@
+.Salads {
+    background-color: var(--white);
+    height: 812px;
+    overflow: hidden;
+    position: relative;
+    width: 375px;
+    color: black;
+    overflow-y: scroll;
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+
+.rectangle-grey {
+    height: 40px;
+    width: 375px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: black;
+  
+    box-shadow: 4px 4px rgb(249, 246, 246);
+    
+}
+
+
+.right-arrow-png-transparent-24-1 {
+    cursor: pointer;
+    height: 14px;
+    left: 16px;
+  
+    position: absolute;
+    top: 15px;
+    width: 12px;
+  
+}
+
+.salads-1 {
+    left: 40px;
+     position: absolute;
+     letter-spacing: 0;
+    top: 14px;
+ }
+ 
+ .x223-2232914_search-b {
+     height: 17px;
+     left: 340px;
+     width: 15px;
+     top: 14px;
+     
+     position: absolute;
+     color: black;
+ }
+ 
+
+ 
+ .salads-2 {
+    left: 20px;
+    position: absolute;
+    letter-spacing: 0;
+    top: 60px;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+   
+}
+
+
+.fresh-fruit-salad {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+   object-fit: cover;
+    position: absolute;
+    top: 102px;
+    border-radius: 10px;
+}
+
+.fresh-fruit-salad-1 {
+    left: 141px;
+    top: 101px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-2 {
+    left: 151px;
+    top: 121px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-1 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 122px;
+}
+
+.number {
+    left: 220px;
+    top: 121px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 140px;
+    border-radius: 5px;
+    
+}
+
+.add-1 {
+    cursor: pointer;
+    left: 307px;
+    top: 143px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text {
+    left: 340px;
+    top: 143px;
+    position: absolute;
+    color: white;
+}
+
+.text-1 {
+    left: 298px;
+    top: 142px;
+    position: absolute;
+    color: white;
+}
+
+.text-2 {
+    left: 138px;
+    top: 150px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-1  {
+    left: 150px;
+    top: 150px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   
+}
+
+
+
+.cashew-chicken-pasta {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 220px;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.cashew-chicken-pasta-1 {
+    left: 141px;
+    top: 220px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-3 {
+    left: 151px;
+    top: 238px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-4 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 238px;
+}
+
+.number-2 {
+    left: 220px;
+    top: 239px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-1 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 260px;
+    border-radius: 5px;
+    
+}
+
+.add-2 {
+    cursor: pointer;
+    left: 307px;
+    top: 263px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-3 {
+    left: 340px;
+    top: 263px;
+    position: absolute;
+    color: white;
+}
+
+.text-4 {
+    left: 298px;
+    top: 262px;
+    position: absolute;
+    color: white;
+}
+
+.text-5 {
+    left: 140px;
+    top: 268px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-3  {
+    left: 150px;
+    top: 268px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+      
+.roasted-veggie-pasta {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+   
+    position: absolute;
+    top: 340px;
+    border-radius: 10px;
+}
+
+.roasted-veggie-pasta-1 {
+    left: 141px;
+    top: 340px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-5 {
+    left: 151px;
+    top: 358px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-6 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 358px;
+}
+
+.number-4 {
+    left: 220px;
+    top: 358px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-2 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 380px;
+    border-radius: 5px;
+    
+}
+
+.add-3 {
+    cursor: pointer;
+    left: 307px;
+    top: 383px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-6 {
+    left: 340px;
+    top: 384px;
+    position: absolute;
+    color: white;
+}
+
+.text-7 {
+    left: 298px;
+    top: 382px;
+    position: absolute;
+    color: white;
+}
+
+.text-8 {
+    left: 140px;
+    top: 390px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-5  {
+    left: 150px;
+    top: 390px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+        
+.cabbage-carrot {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+   
+    position: absolute;
+    top: 460px;
+    border-radius: 10px;
+}
+
+.cabbage-carrot-1 {
+    left: 141px;
+    top: 460px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-7 {
+    left: 151px;
+    top: 477px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-8 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 478px;
+}
+
+.number-6 {
+    left: 220px;
+    top: 478px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-3 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 500px;
+    border-radius: 5px;
+    
+}
+
+.add-4 {
+    cursor: pointer;
+    left: 307px;
+    top: 503px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-9 {
+    left: 340px;
+    top: 503px;
+    position: absolute;
+    color: white;
+}
+
+.text-10 {
+    left: 298px;
+    top: 502px;
+    position: absolute;
+    color: white;
+}
+
+.text-11 {
+    left: 140px;
+    top: 510px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-7  {
+    left: 150px;
+    top: 510px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+      
+.samosa-potato {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+   object-fit: cover;
+    position: absolute;
+    top: 580px;
+    border-radius: 10px;
+}
+
+.samosa-potato-1 {
+    left: 141px;
+    top: 580px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-9 {
+    left: 151px;
+    top: 598px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-10 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 598px;
+}
+
+.number-8 {
+    left: 220px;
+    top: 600px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-4 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 625px;
+    border-radius: 5px;
+    
+}
+
+.add-5 {
+    cursor: pointer;
+    left: 307px;
+    top: 628px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-12 {
+    left: 340px;
+    top: 628px;
+    position: absolute;
+    color: white;
+}
+
+.text-13 {
+    left: 298px;
+    top: 627px;
+    position: absolute;
+    color: white;
+}
+
+.text-14 {
+    left: 140px;
+    top: 630px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-9  {
+    left: 150px;
+    top: 630px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+      
+      
+.crispy-chicken-tikka {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+   object-fit: cover;
+    position: absolute;
+    top: 700px;
+    border-radius: 10px;
+}
+
+.crispy-chicken-tikka-1 {
+    left: 141px;
+    top: 700px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-11 {
+    left: 151px;
+    top: 718px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-12 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 718px;
+}
+
+.number-10 {
+    left: 220px;
+    top: 718px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-5 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 740px;
+    border-radius: 5px;
+    
+}
+
+.add-6 {
+    cursor: pointer;
+    left: 307px;
+    top: 743px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-15 {
+    left: 340px;
+    top: 743px;
+    position: absolute;
+    color: white;
+}
+
+.text-16 {
+    left: 298px;
+    top: 742px;
+    position: absolute;
+    color: white;
+}
+
+.text-17 {
+    left: 140px;
+    top: 750px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-11  {
+    left: 150px;
+    top: 750px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+   
+.indian-spinach {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 840px;
+    border-radius: 10px;
+}
+
+.indian-spinach-1 {
+    left: 141px;
+    top: 840px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-13 {
+    left: 151px;
+    top: 858px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-14 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 858px;
+}
+
+.number-12 {
+    left: 220px;
+    top: 860px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-6 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 880px;
+    border-radius: 5px;
+    
+}
+
+.add-7 {
+    cursor: pointer;
+    left: 307px;
+    top: 883px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-18 {
+    left: 340px;
+    top: 883px;
+    position: absolute;
+    color: white;
+}
+
+.text-19 {
+    left: 298px;
+    top: 882px;
+    position: absolute;
+    color: white;
+}
+
+.text-20 {
+    left: 140px;
+    top: 890px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-13  {
+    left: 150px;
+    top: 890px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+        
+.tandoori-chicken {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    
+    position: absolute;
+    top: 950px;
+    border-radius: 10px;
+}
+
+.tandoori-chicken-1 {
+    left: 141px;
+    top: 950px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-15 {
+    left: 151px;
+    top: 968px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-16 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 968px;
+}
+
+.number-14 {
+    left: 220px;
+    top: 970px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-7 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 990px;
+    border-radius: 5px;
+    
+}
+
+.add-8 {
+    cursor: pointer;
+    left: 307px;
+    top: 993px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-21 {
+    left: 340px;
+    top: 993px;
+    position: absolute;
+    color: white;
+}
+
+.text-22 {
+    left: 298px;
+    top: 992px;
+    position: absolute;
+    color: white;
+}
+
+.text-23 {
+    left: 140px;
+    top: 1000px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-15  {
+    left: 150px;
+    top: 1000px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+
+   
+     
+.grilled-paneer {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+   
+    position: absolute;
+    top: 1070px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.grilled-paneer-1 {
+    left: 141px;
+    top: 1070px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-17 {
+    left: 151px;
+    top: 1088px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-18 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1088px;
+}
+
+.number-16 {
+    left: 220px;
+    top: 1088px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-8 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 1110px;
+    border-radius: 5px;
+    
+}
+
+.add-9 {
+    cursor: pointer;
+    left: 307px;
+    top: 1113px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-24 {
+    left: 340px;
+    top: 1113px;
+    position: absolute;
+    color: white;
+}
+
+.text-25 {
+    left: 298px;
+    top: 1112px;
+    position: absolute;
+    color: white;
+}
+
+.text-26 {
+    left: 140px;
+    top: 1120px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-17  {
+    left: 150px;
+    top: 1120px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+     
+.paleo-chinese-chicken {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 1190px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.paleo-chinese-chicken-1 {
+    left: 141px;
+    top: 1190px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-19 {
+    left: 151px;
+    top: 1208px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-20 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1208px;
+}
+
+.number-18 {
+    left: 220px;
+    top: 1209px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-9 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 1230px;
+    border-radius: 5px;
+    
+}
+
+.add-10 {
+    cursor: pointer;
+    left: 307px;
+    top: 1233px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-27 {
+    left: 340px;
+    top: 1233px;
+    position: absolute;
+    color: white;
+}
+
+.text-28 {
+    left: 298px;
+    top: 1232px;
+    position: absolute;
+    color: white;
+}
+
+.text-29 {
+    left: 140px;
+    top: 1240px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-19  {
+    left: 150px;
+    top: 1240px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+       
+.vegan-bombay-carrot {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 1295px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.vegan-bombay-carrot-1 {
+    left: 141px;
+    top: 1295px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-21 {
+    left: 151px;
+    top: 1313px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-22 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1313px;
+}
+
+.number-20 {
+    left: 220px;
+    top: 1314px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-10 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 1335px;
+    border-radius: 5px;
+    
+}
+
+.add-11 {
+    cursor: pointer;
+    left: 307px;
+    top: 1337px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-30 {
+    left: 340px;
+    top: 1337px;
+    position: absolute;
+    color: white;
+}
+
+.text-31 {
+    left: 298px;
+    top: 1336px;
+    position: absolute;
+    color: white;
+}
+
+.text-32 {
+    left: 140px;
+    top: 1345px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-21  {
+    left: 150px;
+    top: 1345px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+     
+
+.spicy-mango {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 1430px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.spicy-mango-1 {
+    left: 141px;
+    top: 1430px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-23 {
+    left: 151px;
+    top: 1448px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-24 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1448px;
+}
+
+.number-22 {
+    left: 220px;
+    top: 1449px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-11 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 1470px;
+    border-radius: 5px;
+    
+}
+
+.add-12 {
+    cursor: pointer;
+    left: 307px;
+    top: 1473px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-33 {
+    left: 340px;
+    top: 1473px;
+    position: absolute;
+    color: white;
+}
+
+.text-34 {
+    left: 298px;
+    top: 1472px;
+    position: absolute;
+    color: white;
+}
+
+.text-35 {
+    left: 140px;
+    top: 1480px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-23  {
+    left: 150px;
+    top: 1480px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+
+      
+.turkish-sumac-onions {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    
+    position: absolute;
+    top: 1540px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.turkish-sumac-onions-1 {
+    left: 141px;
+    top: 1540px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-25 {
+    left: 151px;
+    top: 1558px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-26 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1558px;
+}
+
+.number-24 {
+    left: 220px;
+    top: 1559px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-12 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 1580px;
+    border-radius: 5px;
+    
+}
+
+.add-13 {
+    cursor: pointer;
+    left: 307px;
+    top: 1583px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-36 {
+    left: 340px;
+    top: 1583px;
+    position: absolute;
+    color: white;
+}
+
+.text-37 {
+    left: 298px;
+    top: 1582px;
+    position: absolute;
+    color: white;
+}
+
+.text-38 {
+    left: 140px;
+    top: 1590px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-25  {
+    left: 150px;
+    top: 1590px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+     
+.chickpea {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 1650px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.chickpea-1 {
+    left: 141px;
+    top: 1650px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-27 {
+    left: 151px;
+    top: 1668px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-28 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1668px;
+}
+
+.number-26 {
+    left: 220px;
+    top: 1669px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-13 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 1690px;
+    border-radius: 5px;
+    
+}
+
+.add-14 {
+    cursor: pointer;
+    left: 307px;
+    top: 1693px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-39 {
+    left: 340px;
+    top: 1693px;
+    position: absolute;
+    color: white;
+}
+
+.text-40 {
+    left: 298px;
+    top: 1692px;
+    position: absolute;
+    color: white;
+}
+
+.text-41 {
+    left: 140px;
+    top: 1700px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-27 {
+    left: 150px;
+    top: 1700px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+       
+.cucumber-avocado {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+   object-fit: cover;
+    position: absolute;
+    top: 1760px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.cucumber-avocado-1 {
+    left: 141px;
+    top: 1760px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-29 {
+    left: 151px;
+    top: 1778px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-30 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1778px;
+}
+
+.number-28 {
+    left: 220px;
+    top: 1779px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-14 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 1800px;
+    border-radius: 5px;
+    
+}
+
+.add-15 {
+    cursor: pointer;
+    left: 307px;
+    top: 1803px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-42 {
+    left: 340px;
+    top: 1803px;
+    position: absolute;
+    color: white;
+}
+
+.text-43 {
+    left: 298px;
+    top: 1802px;
+    position: absolute;
+    color: white;
+}
+
+.text-44 {
+    left: 140px;
+    top: 1810px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-29 {
+    left: 150px;
+    top: 1810px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+      
+.mung-bean-sprout {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 1870px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+
+.mung-bean-sprout-1 {
+    left: 141px;
+    top: 1870px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-31 {
+    left: 151px;
+    top: 1888px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-32 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1888px;
+}
+
+.number-30 {
+    left: 220px;
+    top: 1889px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-15 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 1910px;
+    border-radius: 5px;
+    
+}
+
+.add-16 {
+    cursor: pointer;
+    left: 307px;
+    top: 1913px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-45 {
+    left: 340px;
+    top: 1913px;
+    position: absolute;
+    color: white;
+}
+
+.text-46 {
+    left: 298px;
+    top: 1912px;
+    position: absolute;
+    color: white;
+}
+
+.text-47 {
+    left: 140px;
+    top: 1920px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-31 {
+    left: 150px;
+    top: 1920px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+
+    
+.masala-lentil {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+  object-fit: cover;
+    position: absolute;
+    top: 1980px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.masala-lentil-1 {
+    left: 141px;
+    top: 1980px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-33 {
+    left: 151px;
+    top: 1998px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-34 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1998px;
+}
+
+.number-32 {
+    left: 220px;
+    top: 1999px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-16 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 2020px;
+    border-radius: 5px;
+    
+}
+
+.add-17 {
+    cursor: pointer;
+    left: 307px;
+    top: 2023px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-48 {
+    left: 340px;
+    top: 2023px;
+    position: absolute;
+    color: white;
+}
+
+.text-49 {
+    left: 298px;
+    top: 2022px;
+    position: absolute;
+    color: white;
+}
+
+.text-50 {
+    left: 140px;
+    top: 2030px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-33 {
+    left: 150px;
+    top: 2030px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+      
+.tomato-with-mint {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 2100px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.tomato-with-mint-1 {
+    left: 141px;
+    top: 2100px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-35 {
+    left: 151px;
+    top: 2116px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-36 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 2116px;
+}
+
+.number-34 {
+    left: 220px;
+    top: 2117px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-17 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 2140px;
+    border-radius: 5px;
+    
+}
+
+.add-18 {
+    cursor: pointer;
+    left: 307px;
+    top: 2143px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-51 {
+    left: 340px;
+    top: 2143px;
+    position: absolute;
+    color: white;
+}
+
+.text-52 {
+    left: 298px;
+    top: 2142px;
+    position: absolute;
+    color: white;
+}
+
+.text-53 {
+    left: 140px;
+    top: 2150px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-35 {
+    left: 150px;
+    top: 2150px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+   
+      
+.beet-and-avocado {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+  object-fit: cover;
+    position: absolute;
+    top: 2210px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.beet-and-avocado-1 {
+    left: 141px;
+    top: 2210px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-37 {
+    left: 151px;
+    top: 2225px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-38 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 2225px;
+}
+
+.number-36 {
+    left: 220px;
+    top: 2226px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-18 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 2250px;
+    border-radius: 5px;
+    
+}
+
+.add-19 {
+    cursor: pointer;
+    left: 307px;
+    top: 2253px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-54 {
+    left: 340px;
+    top: 2253px;
+    position: absolute;
+    color: white;
+}
+
+.text-55 {
+    left: 298px;
+    top: 2252px;
+    position: absolute;
+    color: white;
+}
+
+.text-56 {
+    left: 140px;
+    top: 2260px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-37 {
+    left: 150px;
+    top: 2260px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }
+
+
+
+      
+.indian-cucumber {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+  object-fit: cover;
+    position: absolute;
+    top: 2320px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.indian-cucumber-1 {
+    left: 141px;
+    top: 2320px;
+    letter-spacing: 0;
+    position: absolute;
+}
+
+.calories-39 {
+    left: 151px;
+    top: 2335px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+}
+
+.calories-40 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 2335px;
+}
+
+.number-38 {
+    left: 220px;
+    top: 2336px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+}
+
+.rectangle-red-19 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 2360px;
+    border-radius: 5px;
+    
+}
+
+.add-20 {
+    cursor: pointer;
+    left: 307px;
+    top: 2363px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+}
+
+.text-57 {
+    left: 340px;
+    top: 2363px;
+    position: absolute;
+    color: white;
+}
+
+.text-58 {
+    left: 298px;
+    top: 2362px;
+    position: absolute;
+    color: white;
+}
+
+.text-59 {
+    left: 140px;
+    top: 2370px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.number-39 {
+    left: 150px;
+    top: 2370px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   }

@@ -1,0 +1,263 @@
+.profile {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 812px;
+    overflow: hidden;
+    width: 375px;
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.line-dark-grey {
+    height: 1px;
+    margin-left: 1px;
+    margin-top: 9px;
+    width: 350px;
+}
+
+.refund-status {
+    align-items: flex-start;
+    letter-spacing: 0;
+    margin-left: 19px;
+    margin-top: 88px;
+    min-height: 12px;
+}
+
+.addresses {
+    align-items: flex-start;
+    letter-spacing: 0;
+    margin-left: 19px;
+    margin-top: 88px;
+    min-height: 15px;
+}
+
+.flex-row {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    margin-right: 1px;
+    margin-top: 19px;
+    min-width: 336px;
+}
+
+.edit {
+    color: #f62626;
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xs);
+    font-weight: 300;
+    letter-spacing: 0;
+    margin-left: 130px;
+    min-height: 12px;
+}
+
+.x47-1-482-nizampet-miyapur-hyderabad {
+    letter-spacing: 0;
+    min-height: 12px;
+    min-width: 188px;
+}
+
+.overlap-group {
+    height: 149px;
+    margin-right: 9px;
+    margin-top: -39px;
+    position: relative;
+    width: 404px;
+}
+
+.phone {
+    left: 103px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 102px;
+}
+
+.arramsrivarshini3132gmail.com {
+    left: 103px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 117px;
+}
+
+.sri-varshini {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-l);
+    font-weight: 600;
+    left: 103px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 82px;
+}
+
+.ellipse-3 {
+    background: linear-gradient(180deg,
+    rgb(244.37, 175.83, 42.77) 37%,
+    rgba(238, 182.03, 73.38, 0) 100%);
+    border-radius: 47.5px;
+    height: 95px;
+    left: 0;
+    position: absolute;
+    top: 22px;
+    width: 95px;
+}
+
+.ellipse-5 {
+    background: linear-gradient(180deg,
+    rgb(244.37, 175.83, 42.77) 37%,
+    rgba(238, 182.03, 73.38, 0) 100%);
+    border-radius: 47.5px;
+    height: 95px;
+    left: 145px;
+    position: absolute;
+    top: 22px;
+    width: 95px;
+}
+
+.rectangle-227 {
+    background: linear-gradient(180deg;
+    rgba(230.7, 171.66, 18.04, 0.64) 0%,
+    rgba(246.5, 81.86, 11.3, 0.71) 100%);
+    border-radius: 20px;
+    height: 80px;
+    left: 32px;
+    position: absolute;
+    top: 69px;
+    width: 350px;
+}
+
+.orange-arrow-with-folding-line-icon-1 {
+    cursor: pointer;
+    height: 23px;
+    left: 332px;
+    object-fit: cover;
+    position: absolute;
+    top: 101px;
+    width: 20px;
+}
+
+.ellipse-6 {
+    background: linear-gradient(180deg,
+    rgb(244.37, 175.83, 42.77) 37%,
+    rgba(238, 182.03, 73.38, 0) 100%);
+    
+    
+    border-radius: 47.5px;
+    height: 95px;
+    left: 230px;
+    position: absolute;
+    top: 0px;
+    width: 95px;
+}
+
+.ellipse-7 {
+    background: linear-gradient(180deg,
+    rgb(244.37, 175.83, 42.77) 37%,
+    rgba(238, 182.03, 73.38, 0) 100%);
+    border-radius: 47.5px;
+    height: 95px;
+    left: 309px;
+    position: absolute;
+    top: 22px;
+    width: 95px;
+}
+
+.star-1 {
+    height: 72px;
+    left: 304px;
+    position: absolute;
+    top: 73px;
+    width: 95px;
+}
+
+.ellipse-7 {
+    background: linear-gradient(180deg,
+    rgb(244.37, 175.83, 42.77) 37%,
+    rgba(238, 182.03, 73.38, 0) 100%);
+    border-radius: 47.5px;
+    height: 95px;
+    left: 63px;
+    position: absolute;
+    top: 5px;
+    width: 95px;
+}
+
+.foto-de-perfil-1 {
+    height: 30px;
+    left: 54px;
+    object-fit: cover;
+    position: absolute;
+    top: 92px;
+    width: 30px;
+}
+
+.payments-and-refunds {
+    align-items: flex-start;
+    letter-spacing: 0;
+    margin-left: 19px;
+    margin-top: 36px;
+    min-height: 15px;
+}
+
+.overlap-group-1 {
+    height: 201px;
+    margin-right: 3px;
+    margin-top: 79px;
+    position: relative;
+    width: 201px;
+}
+
+.log-out {
+    color: var(--scarlet);
+    font-weight: 900;
+    left: 60px;
+    position: absolute;
+    text-align: center;
+    top: 400px;
+}
+
+.samosas-icon-downloa {
+    height: 201px;
+    left: 9px;
+    object-fit: cover;
+    position: absolute;
+    top: 400px;
+    width: 201px;
+}
+
+.line-dark-grey-1 {
+    height: 1px;
+    
+    margin-left: 1px;
+    margin-top: 8px;
+    width: 350px;
+}
+
+.flex-row-1 {
+    align-items: center;
+    display: flex;
+    margin-left: 11px;
+    margin-top: 10px;
+    min-width: 348px;
+}
+
+.rightward-orange-arowhead-icon-1 {
+    height: 20px;
+    margin-left: 241px;
+    object-fit: cover;
+    width: 5px;
+    top: 20px;
+
+}
+
+.payment-modes {
+    letter-spacing: 0;
+    margin-bottom: 1.98px;
+    min-height: 12px;
+    min-width: 77px;
+}
