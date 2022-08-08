@@ -6,43 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="Login.css">
+    <a href="Otp.html"></a>
 </head>
 <body>
-<div class="log-in-page screen">
-    <div class="overlap-group">
 
-        <img class="ellipse-1" src="ellipse-1.png"/>
-      
-        <img class="spicy-food-1" src="spicy food.png"/>
+    <div class="log-in-screen">
        
-        
-        <div class="frame-1"></div>
-        <div class="rectangle-1"></div>
-        <div class="rectangle-46"></div>
-        <img class="tomato-1" src="tomato.png"/>
-        <img class="broccoli-transparent-25-1" src="broccoli-transparent-25.png"/>
-        
-        <div class="rectangle-45"></div>
-        <p class="enter-email-or-username inter-normal-black-14px">Enter&nbsp;&nbsp;Email or Username</p>
-        <img class="line-8" src="line dark grey.png"/>
-        <div class="password inter-normal-black-14px">Password</div>
-        
-        <img class="surveillance" src="34-344003_surveillance-eye-symbol-svg-png-icon-free-download.png"/>
-        <div class="log-in">Log In</div>
-       
-        <div class="sign-up">Sing Up</div>
-        <div class="forgot-password">Forgot Password?</div>
-        <img class="instagram-1-1" src="instagram (1) (1).png"/>
-        <img class="google-1" src="google.png"/>
-        <img class="facebook-2" src="facebook.png"/>
-        <img class="twitter" src="twitter.png"/>
-        <img class="line-10" src="line dark grey.png"/>
-        
-       
-        <div class="rectangle-41"></div>
-        <div class="log-in-1">Log In</div>
-        <div class="or inter-normal-black-14px">or</div>
-</div>
-</div>
+        <div class="container">
+            
+           <div class="card">
+              <div class="inner-box" id="card">
+                <div class="card-front">
+                  
+                    <h2>Log In</h2>
+                    <form>
+                        <input type="email" class="input-box" placeholder="Enter Your Email" required>
+                        <input type="password" class="input-box" placeholder="Enter Password" required>
+                        <button type="submit" class="sumbit-btn">Log In</button>
+                        <input type="checkbox"><span>Remember Me</span>
+                    </form>
+                    <button type="button" class="btn" onclick="opensignup()">I'm New Here</button>
+                    <a href="">Forgot Password</a>
+                    <div class="social-icons">
+
+                    <img src="instagram (1) (1).png">
+                    <img src="google.png">
+                    <img src="facebook.png">
+                    <img src="twitter.png">
+                </div>
+                </div>
+                    <div class="card-back">
+                        <h2>Sign up</h2>
+                    <form>
+                        <input type="text" class="input-box" placeholder="Enter Your Name" required>
+                        <input type="email" class="input-box" placeholder="Enter Your Email" required>
+                        <input type="password" class="input-box" placeholder="Enter Password" required>
+                        <button type="submit" class="sumbit-btn">Sign Up</button>
+                        <input type="checkbox"><span>Remember Me</span>
+                    </form>
+                    <button type="button" class="btn" onclick="openlogin()">I'have an account</button>
+                    <a href="">Forgot Password</a>
+                    <div class="social-icons">
+
+                    <img src="instagram (1) (1).png">
+                    <img src="google.png">
+                    <img src="facebook.png">
+                    <img src="twitter.png">
+                </div>
+                </div>
+             </div>
+           </div>
+        </div>
+
+        <script>
+            var card = document.getElementById("card");
+
+            function opensignup() {
+                card.style.transform = "rotateY(-180deg)"; 
+            }
+
+            function openlogin() {
+                card.style.transform = "rotateY(0deg)"; 
+             }
+              </script>
+    </div>
 </body>
 </html>
