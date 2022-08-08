@@ -1,0 +1,1768 @@
+.snacks {
+    background-color: var(--white);
+    height: 812px;
+    overflow: hidden;
+    position: relative;
+    width: 375px;
+    color: black;
+    
+    font-style: normal;
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.rectangle-greyish {
+    height: 40px;
+    width: 375px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: black;
+  
+    box-shadow: 6px 4px rgb(249, 246, 246);
+    
+}
+ 
+
+.right-arrow-png-transparent-24-1 {
+    cursor: pointer;
+    height: 13px;
+    left: 16px;
+  
+    position: absolute;
+    top: 13px;
+    width: 12px;
+}
+
+.snacks-1 {
+    left: 40px;
+    position: absolute;
+    letter-spacing: 0;
+    top: 10px;
+ font-style: normal;
+ font-weight: 100;
+}
+
+.x223-2232914_search-b {
+    height: 17px;
+    left: 340px;
+    width: 15px;
+    top: 13px;
+    
+    position: absolute;
+    color: black;
+}
+
+.snacks-2 {
+    left: 27px;
+    position: absolute;
+    letter-spacing: 0;
+    top: 60px;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+}
+   
+.aloo-samosa{
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 101px;
+    border-radius: 10px;
+   
+   
+}
+
+
+.aloo-samosa-1 {
+    left: 141px;
+    top: 101px;
+    letter-spacing: 0;
+    position: absolute;
+    font-style: initial;
+    font-weight: 100;
+    font-size: large;
+  
+
+}
+
+.calories-2 {
+    left: 151px;
+    top: 122px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.calories-1 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 122px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.number {
+    left: 220px;
+    top: 123px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.rectangle-red {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 140px;
+    border-radius: 5px;
+    font-style: normal;
+}
+
+.add-1 {
+    cursor: pointer;
+    left: 307px;
+    top: 144px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+    font-style: normal;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.text {
+    left: 340px;
+    top: 145px;
+    position: absolute;
+    color: white;
+    font-style: normal;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.text-1 {
+    left: 298px;
+    top: 140px;
+    position: absolute;
+    color: white;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.text-2 {
+    left: 138px;
+    top: 150px;
+    position: absolute;
+    font-weight: bold;
+    font-style: normal;
+    font-size: medium;
+}
+
+.number-1  {
+    left: 150px;
+    top: 150px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+.onion-samosa {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+   object-fit: cover;
+   position: absolute;
+    top: 220px;
+    border-radius: 10px;
+    overflow-y: auto;
+    font-weight: 100;
+}
+
+.onion-samosa-1 {
+    left: 141px;
+    top: 220px;
+    letter-spacing: 0;
+    position: absolute;
+    font-style: normal;
+    font-weight: 100;
+    font-size: large;
+}
+
+.calories-3 {
+    left: 155px;
+    top: 240px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.calories-4 {
+    height: 13px;
+    left: 142px;
+    width: 15px;
+    position: absolute;
+    top: 240px;
+    font-weight: 100;
+}
+
+.number-2 {
+    left: 220px;
+    top: 239px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+   font-style: normal;
+   font-weight: 100;
+}
+
+.rectangle-red-1 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 260px;
+    border-radius: 5px;
+    
+}
+
+.add-2 {
+    cursor: pointer;
+    left: 307px;
+    top: 263px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    font-size: medium;
+    font-style: normal;
+}
+
+.text-3 {
+    left: 340px;
+    top: 263px;
+    position: absolute;
+    color: white;
+    font-style: normal;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.text-4 {
+    left: 298px;
+    top: 260px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+}
+
+.text-5 {
+    left: 140px;
+    top: 268px;
+    position: absolute;
+    font-weight: bold;
+    font-style: normal;
+    font-size: medium;
+}
+
+.number-3  {
+    left: 150px;
+    top: 268px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+   }
+
+
+
+
+
+
+
+
+
+.banana-chips {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 340px;
+    border-radius: 10px;
+}
+
+.banana-chips-1 {
+    left: 141px;
+    top: 340px;
+    letter-spacing: 0;
+    position: absolute;
+    font-weight: 100;
+    font-style: normal;
+    font-size: large;
+}
+
+.calories-5 {
+    left: 151px;
+    top: 360px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.calories-6 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 360px;
+}
+
+.number-4 {
+    left: 220px;
+    top: 361px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.rectangle-red-2 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 380px;
+    border-radius: 5px;
+    
+}
+
+.add-3 {
+    cursor: pointer;
+    left: 307px;
+    top: 383px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.text-6 {
+    left: 340px;
+    top: 384px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    font-size: medium;
+}
+
+.text-7 {
+    left: 298px;
+    top: 380px;
+    position: absolute;
+    color: white;
+    font-style: normal;
+    
+}
+
+.text-8 {
+    left: 140px;
+    top: 390px;
+    position: absolute;
+    font-weight: bold;
+    font-size: medium;
+    font-style: normal;
+}
+
+.number-5  {
+    left: 150px;
+    top: 390px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+    
+   }
+
+
+
+
+
+
+.rose-cakes {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+   
+    position: absolute;
+    top: 460px;
+    border-radius: 10px;
+}
+
+.rose-cakes-1 {
+    left: 141px;
+    top: 460px;
+    letter-spacing: 0;
+    position: absolute;
+    font-style: normal;
+    font-weight: 100;
+    font-size: large;
+}
+
+.calories-7 {
+    left: 153px;
+    top: 480px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.calories-8 {
+    height: 13px;
+    left: 138px;
+    width: 15px;
+    position: absolute;
+    top: 480px;
+}
+
+.number-6 {
+    left: 220px;
+    top: 481px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.rectangle-red-3 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 500px;
+    border-radius: 5px;
+    
+}
+
+.add-4 {
+    cursor: pointer;
+    left: 307px;
+    top: 503px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+    font-style: normal;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.text-9 {
+    left: 340px;
+    top: 503px;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.text-10 {
+    left: 298px;
+    top: 500px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+}
+
+.text-11 {
+    left: 140px;
+    top: 510px;
+    position: absolute;
+    font-weight: bold;
+    font-size: medium;
+    font-style: normal;
+}
+
+.number-7  {
+    left: 150px;
+    top: 510px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+   }
+
+
+.bhel-puri {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 580px;
+    border-radius: 10px;
+}
+
+.bhel-puri-1 {
+    left: 141px;
+    top: 580px;
+    letter-spacing: 0;
+    position: absolute;
+    font-style: normal;
+    font-weight: 100;
+    font-size: medium;
+}
+
+.calories-9 {
+    left: 151px;
+    top: 599px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.calories-10 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 599px;
+}
+
+.number-8 {
+    left: 220px;
+    top: 600px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.rectangle-red-4 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 625px;
+    border-radius: 5px;
+    
+}
+
+.add-5 {
+    cursor: pointer;
+    left: 307px;
+    top: 629px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    font-style: normal;
+    font-size: medium;
+}
+
+.text-12 {
+    left: 340px;
+    top: 629px;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.text-13 {
+    left: 298px;
+    top: 625px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+}
+
+.text-14 {
+    left: 140px;
+    top: 630px;
+    position: absolute;
+    font-weight: bold;
+    font-style: normal;
+    font-size: medium;
+}
+
+.number-9  {
+    left: 150px;
+    top: 630px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+   }
+
+
+.dahi-chat {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+   object-fit: cover;
+    position: absolute;
+    top: 700px;
+    border-radius: 10px;
+    
+}
+
+.dahi-chat-1 {
+    left: 141px;
+    top: 700px;
+    letter-spacing: 0;
+    position: absolute;
+    font-style: normal;
+    font-weight: 100;
+    font-size: large;
+}
+
+.calories-11 {
+    left: 151px;
+    top: 720px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.calories-12 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 720px;
+}
+
+.number-10 {
+    left: 220px;
+    top: 720px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.rectangle-red-5 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 740px;
+    border-radius: 5px;
+    
+}
+
+.add-6 {
+    cursor: pointer;
+    left: 308px;
+    top: 744px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.text-15 {
+    left: 340px;
+    top: 744px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    font-size: medium;
+}
+
+.text-16 {
+    left: 298px;
+    top: 740px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+}
+
+.text-17 {
+    left: 140px;
+    top: 750px;
+    position: absolute;
+    font-weight: bold;
+    font-size: medium;
+    font-style: normal;
+}
+
+.number-11  {
+    left: 150px;
+    top: 750px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+   }
+
+
+
+
+   
+.frankie {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 840px;
+    border-radius: 10px;
+   
+}
+
+.frankie-1 {
+    left: 141px;
+    top: 840px;
+    letter-spacing: 0;
+    position: absolute;
+    font-weight: 100;
+    font-style: normal;
+    font-size: large;
+}
+
+.calories-13 {
+    left: 151px;
+    top: 860px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.calories-14 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 860px;
+}
+
+.number-12 {
+    left: 220px;
+    top: 860px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.rectangle-red-6 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 880px;
+    border-radius: 5px;
+    
+}
+
+.add-7 {
+    cursor: pointer;
+    left: 308px;
+    top: 884px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.text-18 {
+    left: 340px;
+    top: 884px;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.text-19 {
+    left: 298px;
+    top: 880px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+}
+
+.text-20 {
+    left: 140px;
+    top: 890px;
+    position: absolute;
+    font-weight: bold;
+    font-size: medium;
+    font-style: normal;
+}
+
+.number-13  {
+    left: 150px;
+    top: 890px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+   }
+
+
+.mirchi-bajji {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 950px;
+    border-radius: 10px;
+}
+
+.mirchi-bajji-1 {
+    left: 141px;
+    top: 950px;
+    letter-spacing: 0;
+    position: absolute;
+    font-weight: 100;
+    font-style: normal;
+    font-size: large;
+}
+
+.calories-15 {
+    left: 151px;
+    top: 971px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.calories-16 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 971px;
+}
+
+.number-14 {
+    left: 220px;
+    top: 972px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.rectangle-red-7 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 990px;
+    border-radius: 5px;
+    
+}
+
+.add-8 {
+    cursor: pointer;
+    left: 308px;
+    top: 994px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.text-21 {
+    left: 340px;
+    top: 994px;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.text-22 {
+    left: 298px;
+    top: 990px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+}
+
+.text-23 {
+    left: 140px;
+    top: 1000px;
+    position: absolute;
+    font-weight: bold;
+    font-style: normal;
+    font-size: medium;
+}
+
+.number-15  {
+    left: 150px;
+    top: 1000px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+   font-style: normal;
+   }
+
+
+.murukulu {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+   
+    position: absolute;
+    top: 1070px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.murukulu-1 {
+    left: 141px;
+    top: 1070px;
+    letter-spacing: 0;
+    position: absolute;
+    font-style: normal;
+    font-weight: 100;
+    font-size: large;
+}
+
+.calories-17 {
+    left: 151px;
+    top: 1090px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.calories-18 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1090px;
+}
+
+.number-16 {
+    left: 220px;
+    top: 1091px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.rectangle-red-8 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 1110px;
+    border-radius: 5px;
+    
+}
+
+.add-9 {
+    cursor: pointer;
+    left: 308px;
+    top: 1114px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+    font-style: normal;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.text-24 {
+    left: 340px;
+    top: 1114px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    font-size: medium;
+}
+
+.text-25 {
+    left: 298px;
+    top: 1110px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+}
+
+.text-26 {
+    left: 140px;
+    top: 1120px;
+    position: absolute;
+    font-weight: bold;
+    font-size: medium;
+    font-style: normal;
+}
+
+.number-17  {
+    left: 150px;
+    top: 1120px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+   }
+
+
+
+.momos {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 1210px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.momos-1 {
+    left: 141px;
+    top: 1210px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: large;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.calories-19 {
+    left: 151px;
+    top: 1230px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.calories-20 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1230px;
+}
+
+.number-18 {
+    left: 220px;
+    top: 1231px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.rectangle-red-9 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 1250px;
+    border-radius: 5px;
+    
+}
+
+.add-10 {
+    cursor: pointer;
+    left: 308px;
+    top: 1254px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.text-27 {
+    left: 340px;
+    top: 1254px;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.text-28 {
+    left: 298px;
+    top: 1250px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+}
+
+.text-29 {
+    left: 140px;
+    top: 1260px;
+    position: absolute;
+    font-weight: bold;
+    font-size: medium;
+    font-style: normal;
+}
+
+.number-19  {
+    left: 150px;
+    top: 1260px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+   }
+
+.pakora {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 1320px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.pakora-1 {
+    left: 141px;
+    top: 1320px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: large;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.calories-21 {
+    left: 151px;
+    top: 1340px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.calories-22 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1340px;
+}
+
+.number-20 {
+    left: 220px;
+    top: 1341px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.rectangle-red-10 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 1360px;
+    border-radius: 5px;
+    
+}
+
+.add-11 {
+    cursor: pointer;
+    left: 308px;
+    top: 1364px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.text-30 {
+    left: 341px;
+    top: 1364px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    font-size: medium;
+}
+
+.text-31 {
+    left: 298px;
+    top: 1360px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+}
+
+.text-32 {
+    left: 140px;
+    top: 1370px;
+    position: absolute;
+    font-weight: bold;
+    font-style: normal;
+    font-size: medium;
+}
+
+.number-21  {
+    left: 150px;
+    top: 1370px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+   }
+
+
+
+
+
+
+.punugulu {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 1430px;
+    border-radius: 10px;
+    overflow-y: scroll;
+   
+}
+
+
+.punugulu-1 {
+    left: 141px;
+    top: 1430px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: large;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+.calories-23 {
+    left: 151px;
+    top: 1450px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.calories-24 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1450px;
+}
+
+.number-22 {
+    left: 220px;
+    top: 1451px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.rectangle-red-11 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 1470px;
+    border-radius: 5px;
+    
+}
+
+.add-12 {
+    cursor: pointer;
+    left: 308px;
+    top: 1474px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.text-33 {
+    left: 341px;
+    top: 1474px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    font-size: medium;
+}
+
+.text-34 {
+    left: 298px;
+    top: 1470px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+}
+
+.text-35 {
+    left: 140px;
+    top: 1480px;
+    position: absolute;
+    font-weight: bold;
+    font-size: medium;
+    font-style: normal;
+}
+
+.number-23  {
+    left: 150px;
+    top: 1480px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+   }
+
+
+
+.popcorn {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 1540px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.popcorn-1 {
+    left: 141px;
+    top: 1540px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: large;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.calories-25 {
+    left: 151px;
+    top: 1560px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.calories-26 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1560px;
+}
+
+.number-24 {
+    left: 220px;
+    top: 1561px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.rectangle-red-12 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 1580px;
+    border-radius: 5px;
+    
+}
+
+.add-13 {
+    cursor: pointer;
+    left: 308px;
+    top: 1584px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.text-36 {
+    left: 340px;
+    top: 1584px;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.text-37 {
+    left: 298px;
+    top: 1580px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+}
+
+.text-38 {
+    left: 140px;
+    top: 1590px;
+    position: absolute;
+    font-weight: bold;
+    font-size: medium;
+    font-style: normal;
+}
+
+.number-25  {
+    left: 150px;
+    top: 1590px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+   }
+
+
+
+   
+.puran-poli {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 1650px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.puran-poli-1 {
+    left: 141px;
+    top: 1650px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: large;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.calories-27 {
+    left: 151px;
+    top: 1670px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.calories-28 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1670px;
+}
+
+.number-26 {
+    left: 220px;
+    top: 1671px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.rectangle-red-13 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 1690px;
+    border-radius: 5px;
+    
+}
+
+.add-14 {
+    cursor: pointer;
+    left: 308px;
+    top: 1694px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.text-39 {
+    left: 340px;
+    top: 1694px;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.text-40 {
+    left: 298px;
+    top: 1690px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+}
+
+.text-41 {
+    left: 140px;
+    top: 1700px;
+    position: absolute;
+    font-weight: bold;
+    font-style: normal;
+    font-size: medium;
+}
+
+.number-27 {
+    left: 150px;
+    top: 1700px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+   }
+
+
+.sev {
+    height: 65px;
+    left: 25px;
+    width: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 1770px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.sev-1 {
+    left: 141px;
+    top: 1770px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: large;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.calories-29 {
+    left: 151px;
+    top: 1790px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.calories-30 {
+    height: 13px;
+    left: 137px;
+    width: 15px;
+    position: absolute;
+    top: 1790px;
+}
+
+.number-28 {
+    left: 220px;
+    top: 1791px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: small;
+    color: lightslategrey;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.rectangle-red-14 {
+    height: 25px;
+    left: 290px;
+    width: 65px;
+    position: absolute;
+    top: 1810px;
+    border-radius: 5px;
+    
+}
+
+.add-15 {
+    cursor: pointer;
+    left: 308px;
+    top: 1814px;
+    letter-spacing: 0;
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.text-42 {
+    left: 340px;
+    top: 1814px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    font-weight: 100;
+    font-size: medium;
+}
+
+.text-43 {
+    left: 298px;
+    top: 1810px;
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    
+}
+
+.text-44 {
+    left: 140px;
+    top: 1820px;
+    position: absolute;
+    font-weight: bold;
+    font-size: medium;
+    font-style: normal;
+}
+
+.number-29 {
+    left: 150px;
+    top: 1820px;
+    letter-spacing: 0;
+    position: absolute;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+   }

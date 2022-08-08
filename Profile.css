@@ -14,52 +14,10 @@
     visibility: hidden;
 }
 
-.line-dark-grey {
-    height: 1px;
-    margin-left: 1px;
-    margin-top: 9px;
-    width: 350px;
-}
 
-.refund-status {
-    align-items: flex-start;
-    letter-spacing: 0;
-    margin-left: 19px;
-    margin-top: 88px;
-    min-height: 12px;
-}
+.main {
+    left: 30px;
 
-.addresses {
-    align-items: flex-start;
-    letter-spacing: 0;
-    margin-left: 19px;
-    margin-top: 88px;
-    min-height: 15px;
-}
-
-.flex-row {
-    align-items: flex-start;
-    display: flex;
-    height: 12px;
-    margin-right: 1px;
-    margin-top: 19px;
-    min-width: 336px;
-}
-
-.edit {
-    color: #f62626;
-    font-family: var(--font-family-inter);
-    font-size: var(--font-size-xs);
-    font-weight: 300;
-    letter-spacing: 0;
-    margin-left: 130px;
-    min-height: 12px;
-}
-
-.x47-1-482-nizampet-miyapur-hyderabad {
-    letter-spacing: 0;
-    min-height: 12px;
-    min-width: 188px;
 }
 
 .overlap-group {
@@ -74,15 +32,10 @@
     left: 103px;
     letter-spacing: 0;
     position: absolute;
-    top: 102px;
+    top: 115px;
+    color: white;
 }
 
-.arramsrivarshini3132gmail.com {
-    left: 103px;
-    letter-spacing: 0;
-    position: absolute;
-    top: 117px;
-}
 
 .sri-varshini {
     color: var(--white);
@@ -92,7 +45,8 @@
     left: 103px;
     letter-spacing: 0;
     position: absolute;
-    top: 82px;
+    top: 95px;
+    color: white;
 }
 
 .ellipse-3 {
@@ -113,51 +67,42 @@
     rgba(238, 182.03, 73.38, 0) 100%);
     border-radius: 47.5px;
     height: 95px;
-    left: 145px;
+    left: 149px;
     position: absolute;
     top: 22px;
     width: 95px;
 }
-
-.rectangle-227 {
-    background: linear-gradient(180deg;
-    rgba(230.7, 171.66, 18.04, 0.64) 0%,
-    rgba(246.5, 81.86, 11.3, 0.71) 100%);
-    border-radius: 20px;
-    height: 80px;
-    left: 32px;
+.rectangle
+{
     position: absolute;
-    top: 69px;
+    left: 205px;
+    top: 115px;
+    transform: translate(-50%,-50%);
     width: 350px;
+    height: 80px;
+    background: linear-gradient(180deg,rgba(230.7, 177.66, 18.04, 0.64) 0%,
+    rgba(246.5, 81.86, 11.3, 0.71) 120%);
+    border-radius: 20px;
 }
 
-.orange-arrow-with-folding-line-icon-1 {
-    cursor: pointer;
-    height: 23px;
-    left: 332px;
-    object-fit: cover;
-    position: absolute;
-    top: 101px;
-    width: 20px;
-}
 
 .ellipse-6 {
     background: linear-gradient(180deg,
-    rgb(244.37, 175.83, 42.77) 37%,
+    rgb(244.37, 175.83, 42.77) 20%,
     rgba(238, 182.03, 73.38, 0) 100%);
-    
+    transform: rotate(180deg);
     
     border-radius: 47.5px;
     height: 95px;
-    left: 230px;
+    left: 229px;
     position: absolute;
-    top: 0px;
+    top: 10px;
     width: 95px;
 }
 
-.ellipse-7 {
+.ellipse-4 {
     background: linear-gradient(180deg,
-    rgb(244.37, 175.83, 42.77) 37%,
+    rgb(244.37, 175.83, 42.77) 30%,
     rgba(238, 182.03, 73.38, 0) 100%);
     border-radius: 47.5px;
     height: 95px;
@@ -167,24 +112,18 @@
     width: 95px;
 }
 
-.star-1 {
-    height: 72px;
-    left: 304px;
-    position: absolute;
-    top: 73px;
-    width: 95px;
-}
 
 .ellipse-7 {
     background: linear-gradient(180deg,
-    rgb(244.37, 175.83, 42.77) 37%,
+    rgb(244.37, 175.83, 42.77) 20%,
     rgba(238, 182.03, 73.38, 0) 100%);
     border-radius: 47.5px;
     height: 95px;
-    left: 63px;
+    left: 73px;
     position: absolute;
-    top: 5px;
+    top: 10px;
     width: 95px;
+    transform: rotate(180deg);
 }
 
 .foto-de-perfil-1 {
@@ -192,72 +131,138 @@
     left: 54px;
     object-fit: cover;
     position: absolute;
-    top: 92px;
+    top: 100px;
     width: 30px;
-}
-
-.payments-and-refunds {
-    align-items: flex-start;
-    letter-spacing: 0;
-    margin-left: 19px;
-    margin-top: 36px;
-    min-height: 15px;
-}
-
-.overlap-group-1 {
-    height: 201px;
-    margin-right: 3px;
-    margin-top: 79px;
-    position: relative;
-    width: 201px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 .log-out {
     color: var(--scarlet);
     font-weight: 900;
-    left: 60px;
+    left: 160px;
     position: absolute;
     text-align: center;
-    top: 400px;
+    top: 645px;
+    color: #f62626;
+    cursor: pointer;
 }
 
 .samosas-icon-downloa {
-    height: 201px;
-    left: 9px;
+    height: 150px;
+    left: 120px;
     object-fit: cover;
     position: absolute;
-    top: 400px;
-    width: 201px;
+    top: 550px;
+    width: 150px;
+    opacity: 30%;
+    color: #f62626;
 }
 
-.line-dark-grey-1 {
-    height: 1px;
-    
-    margin-left: 1px;
-    margin-top: 8px;
-    width: 350px;
+
+
+
+.parent {
+
 }
 
-.flex-row-1 {
-    align-items: center;
-    display: flex;
-    margin-left: 11px;
-    margin-top: 10px;
-    min-width: 348px;
-}
-
-.rightward-orange-arowhead-icon-1 {
-    height: 20px;
-    margin-left: 241px;
+.orange-arrow-with-folding-line-icon-1 {
+    cursor: pointer;
+    height: 23px;
+    left: 330px;
     object-fit: cover;
-    width: 5px;
-    top: 20px;
+    position: absolute;
+    top: 105px;
+    width: 20px;
+    border-radius: 30px;
+    
+}
+.star {
+    position: absolute;
+    object-fit: cover;
+    left: 300px;
+    top: 73px;
+    width: 80px;
+    height: 80px;
+    opacity: 100%;
 
 }
 
-.payment-modes {
-    letter-spacing: 0;
-    margin-bottom: 1.98px;
-    min-height: 12px;
-    min-width: 77px;
+.input-box {
+    border-radius: 20px;
+    color: rgb(254, 25, 25);
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 0px;
+    height: 50px;
+    border: 1px solid #ef0909;
+   
+}
+::placeholder {
+    color: #f62626;
+    font-style: small;
+    font-size: 18px;
+   text-align: center;
+
+}
+
+.payment {
+    color: #f74e4e;
+   margin-left: -160px;
+   margin-top: 50px;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.modes {
+    color: #f62626;
+    
+}
+
+.upi {
+ margin-left: -80px;
+ margin-top: 20px;
+ font-weight: 600;
+}
+
+.phonepe {
+    margin-top: 20px;
+    margin-left: -80px;
+
+    }
+
+
+
+
+.phonepe-1 {
+    width: 30px;
+    height: 30px;
+    margin-left: -80px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+
+.paytm {
+    margin-top: -61px;
+    margin-left: 15px;
+}
+.paytm-1 {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.netbanking {
+    font-weight: 600;
+    margin-left: -80px;
+    margin-top: 10px;
+}
+
+.cash {
+    font-weight: 600;
+    margin-left: -80px;
+    margin-top: 10px;
 }

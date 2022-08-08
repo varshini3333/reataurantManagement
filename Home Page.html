@@ -9,9 +9,60 @@
      <link rel="stylesheet" href="Home Page.css">
 
 
-
-
      <style>
+body{ 
+background-image: url('full\ meal\ 2.png');
+background-size: 375px 821px;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.search-container {
+  float: right;
+  position: absolute;
+  top: 60px;
+  
+}
+
+input[type=text] {
+  padding: 6px;
+ 
+  margin-left: 105px;
+  font-size: 13px;
+  border: none;
+  border-radius: 20px;
+  width: 200px;
+}
+
+
+.search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .search-container {
+    float: none;
+  }
+ 
+  input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+
+
+
+
       * {box-sizing: border-box}
       body {font-family: Verdana, sans-serif; margin:0}
       .mySlides {display: none}
@@ -85,21 +136,113 @@
       @media only screen and (max-width: 300px) {
         .prev, .next,.text {font-size: 11px}
       }
+
+      
+.sidenav {
+  height: 40%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  background-color: navy;
+  background-image: linear-gradient(rgba(255, 65, 65, 0.838),rgba(255, 255, 0, 0.856));
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  animation: mymove 2s infinite;
+  border-radius: 0px 20px 0px 20px;
+}
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: rgb(255, 234, 0);}
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: navy;
+  display: block;
+  transition: 0.3s;
+  
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 13px;}
+}
+
       </style>
 
  </head>
  <body>
     <div class="Home screen">
-        <img class="full-meal" src="full meal 1.png"/>
+    
+   
     <div class="delivery-to">Delivery to</div>
     <div class="nizampet-hyd">Nizampet,Hyderabad</div>
-    <img class="downward-arrow" src="16-164569_down-arrow-png-image-background-arrow-down-icon.png"/>
-    <img class="man" src="man.png"/>
-    <img class="three-lines" src="three lines.png"/>
+    <img class="downward-arrow" src="Drop down arrow.png"/>
+    <a href="Profile.html">
+      <img class="man"src="man.png" alt="Profile" style="width:32px;height:32px;">
+      </a>
+    
+ 
+
+    
     <img class="search" src="search.png""/>
-    <div class="restuarant">restuarant foods or drinks....</div>
+
+    
+     
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="restuarant foods or drinks...." name="Search">
+          
+        </form>
+      </div>
+   
+ 
+   
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="About Us.html" target="_blank">About Us</a>
+  <a href="Feedback.html" target="_blank">Feedback</a>
+  <a href="FAQ's.html" target="_blank">FAQ's</a>
+  <a href="Terms and Conditions.html" target="_blank">Terms and Conditions</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px" ;
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+      
+
+
+
+
+
+    
     <img class="voice" src="voice.png"/>
     <div class="just-check-out">Just check out!!</div>
+
 
 
     <div class="slideshow-container">
@@ -188,55 +331,94 @@
       }
       </script>
       
+     
+      
+   
+    <a href="Tiffins.html">
+    <img class="tiffin" src="tiffin.png" alt="Tiffins">
+    </a>
+    <a class="tiffins"href="Tiffins.html" target="_blank">Tiffins</a>
 
-    <img class="tiffin" src="tiffin.png"/>
-    <div class="tiffins">Tiffins</div>
+    <a href="Snacks.html">
+    <img class="snack" src="snack.png" alt="snacks" style="width:98px;height:69px;border-radius: 10px;">
+    </a>
+    <a class="snacks"href="Snacks.html" target="_blank">Snacks</a>
 
-    <img class="snack" src="snack.png"/>
-    <div class="snacks">Snacks</div>
+    
+    <a href="Beverages.html">
+      <img  class="beverage" src="beverages.png" alt="Beverages" style="width:98px;height:69px;border-radius: 10px;">
+      </a>
+      <a class="beverages"href="Beverages.html" target="_blank">Beverages</a>
 
-    <img class="beverage" src="beverages.png"/>
-    <div class="beverages">Beverages</div>
+
+      <a href="Desserts.html">
+        <img  class="dessert" src="desserts.jpg" alt="Desserts" style="width:98px;height:69px;border-radius: 10px;">
+        </a>
+        <a class="desserts"href="Desserts.html" target="_blank">Desserts</a>
+
+
+        <a href="Meals.html">
+          <img class="meal" src="Chicken dum biryani.jpg" alt="Meals" style="width:98px;height:69px;border-radius: 10px;">
+        </a>
+        <a class="meals"href="Meals.html" target="_blank">Meals</a>
+
+
+          <a href="salads.html">
+            <img class="salad" src="Cucumber Avocado Salad.jpg" alt="snacks" style="width:98px;height:69px;border-radius: 10px;">
+            </a>
+            <a class="salads"href="Salads.html" target="_blank">Salads</a>
+    
+    
+    <a href="Burgers.html">
+      <img class="burger" src="burgers.png" alt="Burgers" style="width:98px;height:69px;border-radius: 10px;">
+      </a>
+      <a class="burgers"href="Burgers.html" target="_blank">Burgers</a>
+
+
+
+      <a href="Pizza.html">
+        <img class="pizza" src="Classic Vegetable Cheese Pizza.jpg" alt="snacks" style="width:98px;height:69px;border-radius: 10px;">
+        </a>
+        <a class="pizza-1"href="Pizza.html" target="_blank">Pizza</a>
 
    
-
-    <img class="dessert" src="desserts.jpg"/>
-    <div class="desserts">Desserts</div>
-
-    <img class="meal" src="Get Recipes On My Website 🥓🥓🥓.jpg"/>
-    <div class="meals">Meals</div>
-
-    <img class="salad" src="Our 10 Most Popular Salad Recipes of 2019.jpg"/>
-    <div class="salads">Salads</div>
-
-    <img class="burger" src="burgers.png"/>
-    <div class="burgers">Burgers</div>
-
-    <img class="pizza" src="Sweet Chili Garlic Chicken Pizza.jpg"/>
-    <div class="pizza-1">Pizza</div>
-
-    <img class="kebab" src="Chicken kebab with bell pepper.jpg"/>
-    <div class="kebabs">Kebabs</div>
-
-
+        <a href="Kebabs.html">
+          <img class="kebab" src="Grilled Shrimp Kebabs.jpg" alt="Kebabs" style="width:98px;height:69px;border-radius: 10px;">
+          </a>
+          <a class="kebabs"href="Kebabs.html" target="_blank">kebabs</a>
+  
     <div class="rectangle-1"> </div>
 
-    <img class="home" src="The Home Safety Checklist For Seniors - SeniorSafetyReviews_com.jpg"/>
-    <div class="home-1">Home</div>
 
-    <img class="take-away" src="Endless Icons.png"/>
-    <div class="car-1">Take Away</div>
+    <a href="Home Page.html">
+      <img class="home" src="The Home Safety Checklist For Seniors - SeniorSafetyReviews_com.jpg" alt="Home" style="width:25px;height:31px;">
+      </a>
+      <a class="home-1" href="Home Page.html" target="_blank">Home</a>
 
 
-    <img class="car" src="Car black side view pointing left free vector icons designed by Freepik.png"/>
-   
-    <img class="dine" src="dining-table.png"/>
-    <div class="dine-1">Dine In</div>
 
-    <img class="cart" src="shopping-bag.png"/>
-    <div class="cart-1">Cart</div>
+      <a href="take-away.html">
+        <img class="take-away" src="Endless Icons.png" alt="take-away" style="width:53px;height:65px;">
+        <img class="car" src="Car black side view pointing left free vector icons designed by Freepik.png" alt="car" style="width:41px;height:30px;">
+        </a>
+        <a class="car-1" href="Take Away.html" target="_blank">Take Away</a>
+
+
+        <a href="Dine In.html">
+          <img class="dine" src="dining-table.png" alt="Dine in" style="width:35px;height:30px;">
+          </a>
+          <a class="dine-1" href="Dine In.html" target="_blank">Dine In</a>
+
+
+          <a href="cart.html">
+            <img class="cart" src="shopping-bag.png" alt="cart" >
+            </a>
+            <a class="cart-1" href="cart.html" target="_blank">Cart</a>
+
+     
    
   </div>
 </div>
+</p>
  </body>
  </html>

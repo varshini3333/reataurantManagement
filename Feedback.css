@@ -7,6 +7,7 @@
     height: 812px;
     overflow: hidden;
     width: 375px;
+    background-image: linear-gradient(white, rgb(245, 193, 97),white );
 
 }
 
@@ -19,7 +20,7 @@
 .overlap-group {
     align-items: flex-end;
     align-self: center;
-    background-color: var(--white);
+    background-color: ;
     border-radius: 5px;
     display: flex;
     height: 42px;
@@ -28,148 +29,111 @@
     min-width: 352px;
     padding: 11px 14px;
 }
+.restaurant {
+         position: absolute;
+         object-fit: cover;
+         width: 375px;
+         height: 192px;
+         opacity: 50%;
+         left: 0px;
 
-.enter-email {
-    letter-spacing: 0;
-    min-height: 17px;
-    min-width: 75px;
 }
 
-.overlap-group3 {
-    align-items: flex-start;
-    background-image:indo-china-food-is-hard-to-find--except-in-new-jersy;
-    background-position: 50% 50%;
-    background-size: cover;
-    display: flex;
-    height: 192px;
-    min-width: 375px;
-    padding: 13px 10px;
-}
-
-.right-arrow-png-transparent-24-8 {
-    cursor: pointer;
-    height: 14px;
+.arrow {
+    position: absolute;
     object-fit: cover;
     width: 14px;
-}
+    height: 14px;
+    top: 230px;
+  left: 10px;
 
-.overlap-group-1 {
-    align-items: flex-start;
-    align-self: center;
-    background: linear-gradient(180deg,rgba(249.69, 169.04, 12.48, 0.73) 0%, rgba(249.69, 12.48, 40.95, 0.67) 100%);
-    border-radius: 2px;
-    display: flex;
-    height: 40px;
-    margin-right: 49px;
-    margin-top: 64px;
-    min-width: 128px;
-    padding: 10px 35px;
-}
-
-.submit {
-    color: var(--white);
-    font-family: var(--font-family-inter);
-    font-size: var(--font-size-m);
-    font-weight: 700;
-    letter-spacing: 0;
-    min-height: 17px;
-}
-
-.mobile-number {
-    letter-spacing: 0;
-    margin-left: 17px;
-    margin-top: 28px;
-    min-height: 17px;
-}
-
-.overlap-group5 {
-    align-items: flex-start;
-    align-self: center;
-    background-color: var(--white);
-    border-radius: 5px;
-    display: flex;
-    height: 79px;
-    margin-left: 9px;
-    margin-top: 8px;
-    min-width: 352px;
-    padding: 14px;
-}
-
-.enter-your-feedback {
-letter-spacing: 0;
-min-height: 17px;
 }
 
 .feed-us-back {
-    -webkit-background-clip: text !important;
+    margin-top: 200px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin-left: 60px;
+    background: -webkit-linear-gradient(yellow, red);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    align-self: center;
-    background: linear-gradient(180deg,
-    rgb(236.94, 201.43, 20.73) 17.65%,
-    rgb(244.37, 8.15, 8.15) 41.18%
-    rgb(229.5, 195.24, 13.39) 68.75%
-    rgb(229.5, 207.89, 13.39) 75.12%
-    rgb(239.06, 10.96, 10.96) 83.53%
-    );
-    background-clip: text;
-    color: transparent;
-    font-family: var(--font-family-inter);
-    font-size: var(--font-size-xx1);
-    font-weight: 800;
-    letter-spacing: 0;
-    margin-left: 18px;
-    margin-top: 11px;
-    max-height: 85px;
-    min-width: 135px;
-    -webkit-text-fill-color: transparent;
-   
+
 }
 
-.span1 {
-    color: var(--black);
-    font-size: var(--font-size-xxx1);
+.lets {
+    font-weight: bolder;
+    color: brown;
+    font-size: 20px;
+    margin-left: 10px;
 }
 
-.span0 {
-    color: var(--black);
+.customer {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: orangered;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.input-box {
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgb(252, 12, 12);
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 10px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: left;
+    color: rgb(253, 17, 17);
+    margin-left: 10px;
+    opacity: 70%;
+
+} 
+
+::placeholder {
+    color: rgb(255, 21, 21);
+    font-size: 12px;
 }
 
 .email {
-    letter-spacing: 0;
-    margin-left: 17px;
-    margin-top: 33px;
-    min-height: 17px;
+    margin-left: 10px;
+    color: orangered;
+    font-weight: bold;
+    font-size: 17px;
+}
+.mobileno {
+    margin-left: 10px;
+    color: orangered;
+    font-weight: bold;
+    font-size: 17px;
 }
 
-.enter-name {
-    letter-spacing: 0;
-    min-height: 17px;
-    min-width: 79px;
+.experience {
+    margin-left: 10px;
+    margin-top: 40px;
+    color: orangered;
+    font-weight: bold;
+    font-size: 17px;
+
 }
 
-.lets-know-what-u-feel {
-    letter-spacing: 0;
-    margin-left: 17px;
-    margin-top: 28px;
-    min-height: 19px;
-}
 
-.express-ur-experience {
-    letter-spacing: 0;
-    margin-left: 17px;
-    margin-top: 28px;
-    min-height: 19px;
-}
+.input-box-1 {
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgb(252, 12, 12);
+    margin: 6px 0;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: left;
+    color: rgb(253, 17, 17);
+    margin-left: 10px;
+    opacity: 70%;
 
-.feedback-item {
-    letter-spacing: 0;
-    margin-left: 17px;
-    margin-top: 30px;
-    min-height: 17px;
-}
-
-.enter-mobile-number {
-    letter-spacing: 0;
-    min-height: 17px;
-    min-width: 142px;
-}
+} 

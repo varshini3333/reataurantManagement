@@ -1,0 +1,61 @@
+.about-us {
+    background-color: rgba(228, 213, 250, 0.507);
+    height: 812px;
+    overflow: hidden;
+    position: relative;
+    width: 375px;
+    
+    
+   
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.trio-1 {
+    position: absolute;
+    top: 220px;
+}
+
+.trio-2 {
+    position: absolute;
+    top: 220px;
+    left: 230px;
+}
+
+.trio-3 {
+    position: absolute;
+   top: 500px;
+}
+
+
+.trio-4 {
+    position: absolute;
+    top: 0px;
+}
+
+.arrow {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.terms {
+    font-weight: bold;
+    top: 250px;
+    position: relative;
+    color: rgb(246, 104, 53);
+}
+
+
+.help {
+    font-weight: bold;
+    top: 400px;
+    position: relative;
+    color: rgb(246, 104, 53);
+}

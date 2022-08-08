@@ -1,0 +1,143 @@
+.take-away {
+    background-color: white;
+    height: 812px;
+    overflow: hidden;
+    position: relative;
+    width: 375px;
+    color: black;
+    
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+
+.rectangle {
+    position: absolute;
+    height: 80px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: rgb(247, 171, 112);
+    top: 40px;
+    left: 10px;
+    box-shadow: 3px 3px 3px rgb(249, 154, 95);
+    opacity: 50%;
+}
+
+.arrow {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    top: 65px;
+    left: 20px;
+    transform: rotate(180deg);
+    opacity: 70%;
+
+}
+
+.ellipse-1 {
+    background-color: rgb(255, 123, 0);
+    border-radius: 175px;
+    height: 350px;
+    left: 100px;
+    position: absolute;
+    top: -40px;
+    width: 350px;
+   opacity: 50%;
+   
+}
+.ellipse-2 {
+   background-color: rgb(255, 123, 0);
+    border-radius: 175px;
+    height: 350px;
+    left: -100px;
+    position: absolute;
+    top: -40px;
+    width: 350px;
+   opacity: 50%;
+}
+.ellipse-3 {
+    background-color: rgb(255, 123, 0);
+     border-radius: 175px;
+     height: 350px;
+     left: -190px;
+     position: absolute;
+     top: 250px;
+     width: 350px;
+    opacity: 50%;
+ }
+ .ellipse-4 {
+    background-color: rgb(255, 123, 0);
+     border-radius: 175px;
+     height: 350px;
+     left: 190px;
+     position: absolute;
+     top: 250px;
+     width: 350px;
+    opacity: 50%;
+ }
+ .ellipse-5 {
+    background-color: rgb(255, 123, 0);
+     border-radius: 175px;
+     height: 350px;
+     left: 12px;
+     position: absolute;
+     top: 220px;
+     width: 350px;
+    opacity: 50%;
+ }
+ .ellipse-6 {
+    background-color: rgb(255, 123, 0);
+     border-radius: 175px;
+     height: 350px;
+     left: 12px;
+     position: absolute;
+     top: 270px;
+     width: 350px;
+    opacity: 50%;
+ }
+ .ellipse-7 {
+    background-color: rgb(255, 123, 0);
+     border-radius: 175px;
+     height: 350px;
+     left: -100px;
+     position: absolute;
+     top: 530px;
+     width: 350px;
+    opacity: 50%;
+ }
+ .ellipse-8 {
+    background-color: rgb(255, 123, 0);
+     border-radius: 175px;
+     height: 350px;
+     left: 100px;
+     position: absolute;
+     top: 530px;
+     width: 350px;
+    opacity: 50%;
+ }
+
+ .take-away-1 {
+   position: absolute;
+   top: 40px;
+   left: 150px;
+   color: white;
+   text-align: center;
+ font-weight: bold;
+   
+
+ }
+ .takeit {
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    color: white;
+    font-size: 14px;
+ }
+
+
+ 

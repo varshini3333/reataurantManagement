@@ -1,0 +1,62 @@
+.cart {
+    background-color: var(--white);
+    height: 812px;
+    overflow: hidden;
+    position: relative;
+    width: 375px;
+    color: black;
+   
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+
+
+.rectangle {
+    position: absolute;
+    height: 70px;
+    width: 375px;
+    top: 0px;
+    left: 0px;
+    box-shadow: 3px 3px gainsboro;
+    opacity: 50%;
+}
+
+.arrow {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 30px;
+    left: 20px;
+}
+
+.order-details {
+    position: absolute;
+    color: brown;
+    left: 50px;
+    top: 12px;
+    font-weight: bolder;
+}
+
+.rectangle-1 {
+
+ position: absolute;
+    height: 125px;
+    width: 375px;
+    top: 120px;
+    left: 0px;
+    background-color: rgba(247, 242, 242, 0.626);
+
+
+}
+
+
+.delivered {
+    position: absolute;
+    left: 10px;
+
+}
