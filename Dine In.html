@@ -23,6 +23,63 @@
             <img class="italian-restuarant " src="Italian Restaurant Semifreddo - Picture gallery 1.png"/>
             
         </div>
+        
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Choose the required restaurant</button>
+    <div id="myDropdown" class="dropdown-content">
+      <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+      <a href="#about">Mehfil</a>
+      <a href="#base">Pista House</a>
+      <a href="#blog">Paradise</a>
+      <a href="#contact">Flechazo</a>
+      <a href="#custom">Tatva</a>
+      <a href="#support">Link Cafe</a>
+      <a href="#tools">Momo Cafe</a>
+    </div>
+  </div>
+  
+  <script>
+  /* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  function filterFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("myDropdown");
+    a = div.getElementsByTagName("a");
+    for (i = 0; i < a.length; i++) {
+      txtValue = a[i].textContent || a[i].innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        a[i].style.display = "";
+      } else {
+        a[i].style.display = "none";
+      }
+    }
+  }
+  </script>
+  
+
+<div class="or">or</div>
+
+<div class="maps">
+    
+    <iframe src=
+"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.2233913121413!2d77.4051603706222!3d28.50292593193056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce626851f7009%3A0x621185133cfd1ad1!2sGeeksforGeeks!5e0!3m2!1sen!2sin!4v1585040658255!5m2!1sen!2sin"
+            width="150"
+            height="100"
+            frameborder="200"
+            style="border:0;"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0">
+    </iframe>
+
+</div>
+
     </div>
            
             

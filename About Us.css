@@ -37,25 +37,61 @@
     top: 0px;
 }
 
+
+
+.recta {
+    position: absolute;
+    width: 370px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid orange;
+    top: 30px;
+    text-align: center;
+    color: orangered;
+}
 .arrow {
     width: 15px;
     height: 15px;
     position: absolute;
-    top: 30px;
+    top: 17px;
     left: 10px;
 }
 
-.terms {
-    font-weight: bold;
-    top: 250px;
+.about {
     position: relative;
-    color: rgb(246, 104, 53);
+   
+    top: 100px;
+    text-align: center;
+    color: navy;
+    animation: mymove 3s ;
+    animation-timing-function: ease-in;
+}
+@keyframes mymove {
+    from {left: -60px;}
+    to {left: 0px;}
 }
 
-
-.help {
-    font-weight: bold;
-    top: 400px;
+.privacy h3{
     position: relative;
-    color: rgb(246, 104, 53);
+    top: 200px;
+    text-align: center;
+    color: rgb(238, 15, 15);
+   }
+
+.privacy p {
+    position: relative;
+    text-align: justify;
+    width: 350px;
+    color: rgb(0, 0, 78);
+    top: 200px;
+    left: 10px;
 }
+
+.rect {
+    width: 375px;height: 50px; border:1px solid rgb(4, 15, 71); background-color:rgb(6, 3, 67);
+  color: aliceblue;
+  position: absolute;
+  text-align: center;
+  bottom: 0px;
+ 
+  }

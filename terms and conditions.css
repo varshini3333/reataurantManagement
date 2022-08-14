@@ -1,0 +1,58 @@
+.terms-and-conditions {
+  background-color: rgb(255, 188, 125);
+  height: 812px;
+  overflow: hidden;
+  position: relative;
+  width: 375px;
+  color: black;
+  animation-name: screen;
+  animation-duration: 3s;
+ 
+  
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+@keyframes screen {
+  from {background-color: rgba(255, 115, 68, 0.578);}
+    to {
+      background-color: rgb(252, 203, 7);
+    }
+ 
+}
+h2 {
+  position: relative;
+  color: crimson;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+
+ul li {
+  list-style-type: circle;
+  color: rgb(5, 5, 92);
+  animation: mymove 5s infinite;
+ 
+ 
+}
+ol li {
+  list-style-type: decimal;
+}
+
+.rect {
+  width: 375px;height: 50px; border:1px solid rgb(4, 15, 71); background-color:rgb(6, 3, 67);
+color: aliceblue;
+position: absolute;
+text-align: center;
+bottom: 0;
+}
+
+.arrow {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  margin-top: 23px;
+  margin-left: 22px;
+}

@@ -140,4 +140,17 @@
  }
 
 
- 
+.or {
+   position: absolute;
+   color: orangered;
+   left: 170px;
+   top: 400px;
+}
+
+.maps {
+   position: absolute;
+   top: 500px;
+   left: 110px;
+   border-radius: 20px;
+   opacity: 50%;
+}
